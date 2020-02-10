@@ -243,6 +243,7 @@ static void config_defaults(struct sway_config *config) {
 	config->urgent_timeout = 500;
 	config->popup_during_fullscreen = POPUP_SMART;
 	config->xwayland = XWAYLAND_MODE_LAZY;
+	config->xwayland_scale = 1;
 
 	config->titlebar_border_thickness = 1;
 	config->titlebar_h_padding = 5;
