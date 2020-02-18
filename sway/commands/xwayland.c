@@ -6,8 +6,8 @@
 
 // must be in order for the bsearch
 static struct cmd_handler xwayland_handlers[] = {
-	{ "enable", xwayland_cmd_enable },
 	{ "disable", xwayland_cmd_disable },
+	{ "enable", xwayland_cmd_enable },
 	{ "force", xwayland_cmd_force },
 	{ "scale", xwayland_cmd_scale },
 };
